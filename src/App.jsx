@@ -17,47 +17,62 @@ import Signup from './pages/registration/Signup';
 import ProductInfo from './pages/productInfo/ProductInfo';
 import AddProduct from './pages/admin/page/AddProduct';
 import UpdateProduct from './pages/admin/page/UpdateProduct';
+import About from './pages/about';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Allproducts from './pages/allproducts/Allproducts';
+import Contact from './pages/contact';
 function App() {
   return (
-    <MyState>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/allproducts" element={<Allproducts />} />
-          <Route path="/order" element={
-            <ProtectedRoute>
-              <Order />
-            </ProtectedRoute>
-          } />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/dashboard" element={
-            <ProtectedRouteForAdmin>
-              <Dashboard />
-            </ProtectedRouteForAdmin>
-          } />
-          <Route path='/login' element={<Login/>} />
-          <Route path='/signup' element={<Signup/>} />
-          <Route path='/productinfo/:id' element={<ProductInfo/>} />
-          <Route path='/addproduct' element={
-            <ProtectedRouteForAdmin>
-              <AddProduct/>
-            </ProtectedRouteForAdmin>
-          } />
-          <Route path='/updateproduct' element={
-            <ProtectedRouteForAdmin>
-              <UpdateProduct/>
-            </ProtectedRouteForAdmin>
-          } />
-          <Route path="/*" element={<NoPage />} />
-        </Routes>
-        <ToastContainer/>
-      </Router>
-    </MyState>
-
-  )
+		<MyState>
+			<Router>
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/allproducts" element={<Allproducts />} />
+					<Route
+						path="/order"
+						element={
+							<ProtectedRoute>
+								<Order />
+							</ProtectedRoute>
+						}
+					/>
+					<Route path="/cart" element={<Cart />} />
+					<Route
+						path="/dashboard"
+						element={
+							<ProtectedRouteForAdmin>
+								<Dashboard />
+							</ProtectedRouteForAdmin>
+						}
+					/>
+					<Route path="/login" element={<Login />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/contact" element={<Contact />} />
+					<Route path="/signup" element={<Signup />} />
+					<Route path="/productinfo/:id" element={<ProductInfo />} />
+					<Route
+						path="/addproduct"
+						element={
+							<ProtectedRouteForAdmin>
+								<AddProduct />
+							</ProtectedRouteForAdmin>
+						}
+					/>
+					<Route
+						path="/updateproduct"
+						element={
+							<ProtectedRouteForAdmin>
+								<UpdateProduct />
+							</ProtectedRouteForAdmin>
+						}
+					/>
+					<Route path="/*" element={<NoPage />} />
+				</Routes>
+				<ToastContainer />
+			</Router>
+		</MyState>
+  );
 }
 
 export default App 
