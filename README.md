@@ -1,8 +1,28 @@
-# React + Vite
+# Online Bookstore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an online bookstore built using Next.js, Firebase, and Tailwind CSS. It allows users to browse through a collection of books, add them to a shopping cart, and proceed with the checkout process.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse a collection of books
+- View book details
+- Add books to a shopping cart
+- Remove books from the cart
+- Checkout process
+- User authentication
+- Admin dashboard
+- Admin Edit Book page
+
+## Technologies Used
+
+- **Next.js:** Used for server-side rendering and routing.
+- **Firebase:** Used for backend services including authentication and database (Firestore).
+- **Tailwind CSS:** Utilized for styling and UI components.
+
+## Getting Started
+```bash
+git clone
+npm install
+npm run dev
+```
+

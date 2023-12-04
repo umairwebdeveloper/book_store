@@ -1,15 +1,22 @@
-import React from 'react'
+import React from "react";
 
 function HeroSection() {
-  return (
-		<div>
+	return (
+		<div className="relative">
 			<img
-				src="https://images.squarespace-cdn.com/content/v1/5e7275120157e10f58ad3274/a85f6bc5-0992-44f9-b2b2-1d2d5a17fbd8/Back+To+School+Sale+Round-Up+%282%29.jpg"
+				src="https://libro-terra.com/wp-content/uploads/2020/01/header_slider_1.png"
 				alt="Banner"
-        width="100%"
+				className="w-full"
 			/>
+			<div className="absolute top-1/3 left-1/4 transform -translate-x-1/3 -translate-y-1/2 bg-slate-500 p-1 md:p-3 rounded-lg">
+				<h1 className="text-xl md:text-4xl font-bold text-white">
+					Online Book Store
+				</h1>
+
+				{/* Additional text or elements can be added here */}
+			</div>
 		</div>
-  );
+	);
 }
 
-export default HeroSection
+export default HeroSection;

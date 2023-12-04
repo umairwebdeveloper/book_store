@@ -11,6 +11,16 @@ function DashboardTab() {
 	const context = useContext(myContext);
 	const { mode, product, edithandle, deleteProduct, order, user } = context;
 
+	const [totalProducts, setTotalProducts] = useState(0);
+	const [totalUsers, setTotalUsers] = useState(0);
+	const [totalOrders, setTotalOrders] = useState(0);
+
+	useEffect(() => {
+		setTotalProducts(product.length);
+		setTotalUsers(user.length);
+		setTotalOrders(order.length);
+	}, [product, user, order]);
+
 	// console.log(product)
 	let [isOpen, setIsOpen] = useState(false);
 
@@ -38,7 +48,7 @@ function DashboardTab() {
 								>
 									<div className="flex gap-2 items-center">
 										<MdOutlineProductionQuantityLimits />
-										Products
+										Products ({totalProducts})
 									</div>{" "}
 								</button>
 							</Tab>
@@ -48,7 +58,7 @@ function DashboardTab() {
 									className="font-medium border-b-2 border-pink-500 bg-[#605d5d12] text-pink-500  hover:shadow-pink-700  rounded-lg text-xl shadow-[inset_0_0_8px_rgba(0,0,0,0.6)]    px-5 py-1.5 text-center "
 								>
 									<div className="flex gap-2 items-center">
-										<AiFillShopping /> Order
+										<AiFillShopping /> Order ({totalOrders})
 									</div>
 								</button>
 							</Tab>
@@ -58,7 +68,7 @@ function DashboardTab() {
 									className="font-medium border-b-2 border-green-500 bg-[#605d5d12] text-green-500 rounded-lg text-xl  hover:shadow-green-700 shadow-[inset_0_0_8px_rgba(0,0,0,0.6)]   px-5 py-1.5 text-center "
 								>
 									<div className="flex gap-2 items-center">
-										<FaUser /> Users
+										<FaUser /> Users ({totalUsers})
 									</div>
 								</button>
 							</Tab>
@@ -428,6 +438,7 @@ function DashboardTab() {
 												(item, index) => {
 													// console.log(allorder)
 													const {
+														id,
 														title,
 														description,
 														category,
@@ -461,9 +472,7 @@ function DashboardTab() {
 																				: "",
 																	}}
 																>
-																	{
-																		allorder.paymentId
-																	}
+																	{id}
 																</td>
 																<th
 																	scope="row"
