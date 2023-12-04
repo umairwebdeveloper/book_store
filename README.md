@@ -1,4 +1,5 @@
-# Online Bookstore
+# Bibliofile
+## Online Bookstore
 
 This project is an online bookstore built using Next.js, Firebase, and Tailwind CSS. It allows users to browse through a collection of books, add them to a shopping cart, and proceed with the checkout process.
 
@@ -21,7 +22,8 @@ This project is an online bookstore built using Next.js, Firebase, and Tailwind 
 
 ## Getting Started
 ```bash
-git clone
+git clone https://github.com/umairwebdeveloper/book_store.git
+cd book_store
 npm install
 npm run dev
 ```
