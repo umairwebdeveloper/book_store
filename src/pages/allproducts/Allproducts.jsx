@@ -106,7 +106,7 @@ function Allproducts() {
 																: "",
 													}}
 												>
-													Bibliofile
+													Books Store
 												</h2>
 												<h1
 													className="title-font text-lg font-medium text-gray-900 mb-2"

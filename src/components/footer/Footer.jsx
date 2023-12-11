@@ -134,7 +134,7 @@ function Footer() {
 										color: mode === "dark" ? "white" : "",
 									}}
 								>
-									Bibliofile
+									Books Store
 								</h1>
 							</div>
 						</Link>
@@ -142,7 +142,7 @@ function Footer() {
 							className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4"
 							style={{ color: mode === "dark" ? "white" : "" }}
 						>
-							© 2023 Bibliofile
+							© 2023 Books Store
 						</p>
 						<span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
 							<a className="text-gray-500">

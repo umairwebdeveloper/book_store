@@ -10,7 +10,7 @@ function HeroSection() {
 			/>
 			<div className="absolute top-1/3 left-1/4 transform -translate-x-1/3 -translate-y-1/2 bg-slate-500 p-1 md:p-3 rounded-lg">
 				<h1 className="text-xl md:text-4xl font-bold text-white">
-					Online Book Store
+					Online Books Store
 				</h1>
 
 				{/* Additional text or elements can be added here */}

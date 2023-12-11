@@ -264,7 +264,7 @@ function Navbar() {
 														: "",
 											}}
 										>
-											Bibliofile
+											Books Store
 										</h1>
 									</div>
 								</Link>
