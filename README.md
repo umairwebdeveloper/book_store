@@ -21,6 +21,7 @@ This project is an online bookstore built using React.js, Firebase, and Tailwind
 - **Tailwind CSS:** Utilized for styling and UI components.
 
 ## Getting Started
+Add firebase configuration
 ```bash
 git clone https://github.com/umairwebdeveloper/book_store.git
 cd book_store
