@@ -1,7 +1,7 @@
 # Bibliofile
 ## Online Bookstore
 
-This project is an online bookstore built using Next.js, Firebase, and Tailwind CSS. It allows users to browse through a collection of books, add them to a shopping cart, and proceed with the checkout process.
+This project is an online bookstore built using React.js, Firebase, and Tailwind CSS. It allows users to browse through a collection of books, add them to a shopping cart, and proceed with the checkout process.
 
 ## Features
 
@@ -16,7 +16,7 @@ This project is an online bookstore built using Next.js, Firebase, and Tailwind 
 
 ## Technologies Used
 
-- **Next.js:** Used for server-side rendering and routing.
+- **React.js:** Used for server-side rendering and routing.
 - **Firebase:** Used for backend services including authentication and database (Firestore).
 - **Tailwind CSS:** Utilized for styling and UI components.
 
