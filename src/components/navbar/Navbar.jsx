@@ -153,7 +153,7 @@ function Navbar() {
 															: "",
 												}}
 											>
-												Signup
+												Sign up
 											</Link>
 										</div>
 									)}
@@ -171,7 +171,7 @@ function Navbar() {
 									</div>
 								</div>
 
-								<div className="border-t border-gray-200 px-4 py-6">
+								{/* <div className="border-t border-gray-200 px-4 py-6">
 									<a
 										href="#"
 										className="-m-2 flex items-center p-2"
@@ -196,14 +196,14 @@ function Navbar() {
 											, change currency
 										</span>
 									</a>
-								</div>
+								</div> */}
 							</Dialog.Panel>
 						</Transition.Child>
 					</div>
 				</Dialog>
 			</Transition.Root>
 
-			<header className="relative bg-white">
+			<header className="relative">
 				{/* <p
 					className="flex h-10 items-center justify-center bg-pink-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8"
 					style={{
@@ -218,8 +218,9 @@ function Navbar() {
 					aria-label="Top"
 					className="bg-gray-100 px-4 sm:px-6 lg:px-8 shadow-xl "
 					style={{
-						backgroundColor: mode === "dark" ? "#282c34" : "",
-						color: mode === "dark" ? "white" : "",
+						backgroundColor:
+							mode === "dark" ? "#282c34" : "#76b900",
+						color: "white",
 					}}
 				>
 					<div className="">
@@ -259,9 +260,9 @@ function Navbar() {
 											className=" text-2xl font-bold text-black  px-2 py-1 rounded"
 											style={{
 												color:
-													mode === "dark"
+													mode === "white"
 														? "white"
-														: "",
+														: "white",
 											}}
 										>
 											PcGuru
@@ -277,7 +278,9 @@ function Navbar() {
 										className="text-sm font-medium text-gray-700 "
 										style={{
 											color:
-												mode === "dark" ? "white" : "",
+												mode === "dark"
+													? "white"
+													: "white",
 										}}
 									>
 										All Products
@@ -290,7 +293,7 @@ function Navbar() {
 												color:
 													mode === "dark"
 														? "white"
-														: "",
+														: "white",
 											}}
 										>
 											Order
@@ -303,7 +306,7 @@ function Navbar() {
 												color:
 													mode === "dark"
 														? "white"
-														: "",
+														: "white",
 											}}
 										>
 											Signup
@@ -318,7 +321,7 @@ function Navbar() {
 												color:
 													mode === "dark"
 														? "white"
-														: "",
+														: "white",
 											}}
 										>
 											Admin
@@ -335,7 +338,7 @@ function Navbar() {
 												color:
 													mode === "dark"
 														? "white"
-														: "",
+														: "white",
 											}}
 										>
 											Logout
@@ -345,7 +348,7 @@ function Navbar() {
 									)}
 								</div>
 
-								<div className="hidden lg:ml-8 lg:flex">
+								{/* <div className="hidden lg:ml-8 lg:flex">
 									<a
 										href="#"
 										className="flex items-center text-gray-700 "
@@ -367,7 +370,7 @@ function Navbar() {
 											UK
 										</span>
 									</a>
-								</div>
+								</div> */}
 								<div className="hidden lg:ml-8 lg:flex">
 									<a
 										href="#"
@@ -424,7 +427,7 @@ function Navbar() {
 												color:
 													mode === "dark"
 														? "white"
-														: "",
+														: "white",
 											}}
 										>
 											{cartItems.length}
