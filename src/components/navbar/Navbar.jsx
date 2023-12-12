@@ -309,7 +309,7 @@ function Navbar() {
 														: "white",
 											}}
 										>
-											Signup
+											Sign up
 										</Link>
 									)}
 
