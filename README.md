@@ -1,13 +1,13 @@
-# Online Bookstore
+# Online Ecommerce Store
 
-This project is an online bookstore built using React.js, Firebase, and Tailwind CSS. It allows users to browse through a collection of books, add them to a shopping cart, and proceed with the checkout process.
+This project is an online Ecommerce Store built using React.js, Firebase, and Tailwind CSS. It allows users to browse through a collection of products, add them to a shopping cart, and proceed with the checkout process.
 
 ## Features
 
-- Browse a collection of books
-- View book details
-- Add books to a shopping cart
-- Remove books from the cart
+- Browse a collection of products
+- View product details
+- Add product to a shopping cart
+- Remove product from the cart
 - Checkout process
 - User authentication
 - Admin dashboard
