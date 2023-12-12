@@ -39,13 +39,13 @@ function Track() {
 										color: mode === "dark" ? "white" : "",
 									}}
 								>
-									Extensive Book Collection
+									Cutting-Edge Performance
 								</h2>
 								<p className="leading-relaxed">
-									A wide-ranging collection covering various
-									genres, including fiction, non-fiction,
-									academic, self-help, children's books, and
-									more.
+									Our CPUs and GPUs boast cutting-edge
+									technology, providing unparalleled
+									performance for gaming, content creation,
+									and professional applications.
 								</p>
 							</div>
 						</div>
@@ -79,13 +79,14 @@ function Track() {
 										color: mode === "dark" ? "white" : "",
 									}}
 								>
-									Search and Filter Options
+									Optimized Cooling Solutions
 								</h2>
 								<p className="leading-relaxed">
-									Advanced search and filter tools to help
-									customers find books by title, author,
-									genre, publication date, format (e-book,
-									audiobook, paperback, hardcover), and more.
+									Enjoy enhanced thermal management with our
+									CPUs and GPUs featuring optimized cooling
+									solutions. Designed with efficient heat
+									dissipation systems and advanced cooling
+									fans.
 								</p>
 							</div>
 						</div>

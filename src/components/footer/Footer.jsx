@@ -34,7 +34,7 @@ function Footer() {
 												mode === "dark" ? "white" : "",
 										}}
 									>
-										Home
+										GPU/Graphics Card
 									</a>
 								</li>
 								<li>
@@ -45,29 +45,7 @@ function Footer() {
 												mode === "dark" ? "white" : "",
 										}}
 									>
-										Order
-									</a>
-								</li>
-								<li>
-									<a
-										className="text-gray-600 hover:text-gray-800"
-										style={{
-											color:
-												mode === "dark" ? "white" : "",
-										}}
-									>
-										Local For Vocal
-									</a>
-								</li>
-								<li>
-									<a
-										className="text-gray-600 hover:text-gray-800"
-										style={{
-											color:
-												mode === "dark" ? "white" : "",
-										}}
-									>
-										Cart
+										CPU/Processor
 									</a>
 								</li>
 							</nav>
@@ -111,8 +89,8 @@ function Footer() {
 
 						<div className="lg:w-1/4 md:w-1/2 w-full px-4">
 							<img
-								src="https://www.codewithc.com/wp-content/uploads/2014/12/online-book-store.jpg"
-								alt=""
+								src="https://cdn.videocardz.com/1/2022/12/MAX-GPU-LAUNCH-EVENT-BANNER-1536x596.jpg"
+								alt="banner"
 							/>
 						</div>
 					</div>
@@ -134,7 +112,7 @@ function Footer() {
 										color: mode === "dark" ? "white" : "",
 									}}
 								>
-									Books Store
+									PcGuru
 								</h1>
 							</div>
 						</Link>
@@ -142,7 +120,7 @@ function Footer() {
 							className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4"
 							style={{ color: mode === "dark" ? "white" : "" }}
 						>
-							© 2023 Books Store
+							© 2023 PcGuru
 						</p>
 						<span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
 							<a className="text-gray-500">

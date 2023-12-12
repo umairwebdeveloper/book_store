@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "Books Store-books-store",
-    "y": "onlinebooks-store"
+    "default": "PcGuru-books-store",
+    "y": "pc-guru-store"
   },
   "targets": {},
   "etags": {}

@@ -264,7 +264,7 @@ function Navbar() {
 														: "",
 											}}
 										>
-											Books Store
+											PcGuru
 										</h1>
 									</div>
 								</Link>

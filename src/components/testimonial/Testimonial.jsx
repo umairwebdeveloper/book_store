@@ -36,12 +36,10 @@ function Testimonial() {
 									}}
 									className="leading-relaxed"
 								>
-									I've been an avid reader for years, and this
-									online bookstore is a gem! The collection is
-									vast, covering genres from classics to the
-									latest bestsellers. The ease of navigation
-									and quick delivery have made it my go-to
-									place for all my book needs.
+									Fantastic store! Great CPUs and GPUs, quick
+									delivery, and superb customer service! easy
+									ordering process, and prompt delivery. A
+									go-to for tech needs!
 								</p>
 								<span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
 								<h2
@@ -68,13 +66,9 @@ function Testimonial() {
 									}}
 									className="leading-relaxed"
 								>
-									I stumbled upon this bookstore while
-									searching for a rare edition, and I'm
-									thrilled with my discovery! The customer
-									service was exceptional; they went above and
-									beyond to help me find what I needed. I
-									highly recommend this bookstore to all book
-									enthusiasts.
+									This store is a gem! Impressed with the
+									selection and service! Got my CPU and GPU
+									hassle-free and fast!
 								</p>
 								<span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
 								<h2
@@ -100,12 +94,9 @@ function Testimonial() {
 									}}
 									className="leading-relaxed"
 								>
-									As a book collector, I'm always on the
-									lookout for unique editions. This online
-									bookstore never disappoints! Their rare book
-									section is impressive, and the quality of
-									their products is outstanding. I've never
-									been let down with any purchase.
+									Top-notch components, fast shipping, and a
+									seamless experience. Highly recommend and
+									lightning-fast shipping. 5 stars!
 								</p>
 								<span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
 								<h2

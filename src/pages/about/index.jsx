@@ -5,54 +5,57 @@ import Footer from '../../components/footer/Footer';
 function About() {
     return (
 		<div>
-            <Navbar />
-			<div className="bg-gray-100 min-h-screen flex items-center justify-center">
+			<Navbar />
+			<div className="bg-gray-100 min-h-screen flex items-center justify-center py-5">
 				<div className="max-w-3xl px-4 py-8 bg-white shadow-lg rounded-lg">
 					<h1 className="text-3xl font-semibold mb-4">
-						About Our Online Bookstore
+						Power Up Your Rig with Cutting-Edge CPUs and GPUs at
+						PcGuru
 					</h1>
-					<p className="text-lg leading-relaxed">
-						At our online bookstore, we're dedicated to cultivating
-						a haven for all bibliophiles and literary enthusiasts.
-						Nestled in the digital realm, our virtual shelves are
-						brimming with an eclectic array of books spanning
-						genres, eras, and cultures. Whether you're looking for a
-						classic novel or a contemporary bestseller, a self-help
-						book or a children's book, we've got you covered. Our
-						extensive collection is sure to satisfy your literary
-						cravings.
+					<p className="text-lg leading-relaxed mb-3">
+						Welcome to PcGuru, your premier destination for
+						high-performance CPUs and GPUs! We're passionate about
+						delivering cutting-edge computing components to fuel
+						your gaming, creative endeavors, or professional tasks.
 					</p>
-                    <h3 className="text-2xl font-semibold mb-4">
-                        Our Mission
-                    </h3>
-                    <p className="text-lg leading-relaxed">
-                        We're committed to making your book shopping experience
-                        as seamless and enjoyable as possible. Our website is
-                        designed to be user-friendly, with a simple interface
-                        that allows you to browse through our collection with
-                        ease. We also offer quick and reliable delivery, so you
-                        can get your hands on your new book in no time.
-                    </p>
-                    <h3 className="text-2xl font-semibold mb-4">
-                        Our Story
-                    </h3>
-					<p className="text-lg leading-relaxed">
-						Founded by passionate book lovers, our bookstore was
-						born from a vision to celebrate the written word and
-						make literature accessible to all. We thrive on the
-						belief that every book has the power to ignite
-						imagination, broaden horizons, and change lives.
+					<p className="text-lg leading-relaxed mb-3">
+						At PcGuru, we understand the pivotal role that
+						processors and graphics cards play in maximizing your
+						system's potential. That's why we curate an extensive
+						collection of top-tier CPUs and GPUs from leading brands
+						like AMD, Intel, NVIDIA, and more. Whether you're a
+						hardcore gamer seeking unmatched frame rates, a content
+						creator in pursuit of seamless rendering, or a
+						professional demanding powerful processing capabilities,
+						we have the perfect solution for you.
 					</p>
-                    <h3 className="text-2xl font-semibold mb-4">
-                        Our Promise
-                        </h3>
-                    <p className="text-lg leading-relaxed">
-                        We hope you enjoy browsing through our collection and
-                        finding your next favorite book!
-                    </p>
+					<p className="text-lg leading-relaxed mb-3">
+						Explore our diverse range of products, featuring the
+						latest generations of CPUs and GPUs designed to elevate
+						your computing experience. From entry-level options
+						ideal for casual users to high-end, overclockable models
+						tailored for enthusiasts and professionals, we offer a
+						comprehensive selection to suit every need and budget.
+					</p>
+					<p className="text-lg leading-relaxed mb-3">
+						Shopping at PcGuru guarantees not only exceptional
+						product quality but also a seamless purchasing
+						experience. Our knowledgeable team is here to assist
+						you, providing expert guidance to help you find the
+						ideal CPU or GPU that aligns with your specific
+						requirements.
+					</p>
+					<p className="text-lg leading-relaxed mb-3">
+						Revitalize your computer's performance and unlock its
+						full potential with our premium range of CPUs and GPUs.
+						Join the ranks of satisfied customers who have
+						experienced enhanced gaming, smoother workflows, and
+						unparalleled computing power thanks to our top-notch
+						products.
+					</p>
 				</div>
 			</div>
-            <Footer />
+			<Footer />
 		</div>
 	);
     }
